@@ -1,0 +1,54 @@
+Introduction
+============
+	This is sandosh kumar, from cuddalore  i have done my graduate in BE civil engineering @kongu engineering college in erode 
+        currently I am working in Inter webstar technology for 3.3 years in both automation and manual on diffrent domains such as E-Commerce & travel.
+	In My travel domain which is kenya Based client. In that i got involved to write Test cases and executing test data manually.
+	My current project is E- commerce  domain which is austraila based client .In that we follow Agile methodology with 3weeks of sprint. 
+	we implements BDD framework with cucumber tool.
+	And In that we used maven dependency as a  management tool.
+	We use design patterns such as pom frame work and Data Driven framework.
+	we use JIRA as defect tracking tool. 
+	Apart from this I have experience on other framework such as TestnG which is used to excute parallel an cross Browser experience.
+    
+Roles and responsibilities:
+=============================
+	In our project, we used agile methodologies. In that, first we attend the sprint plan meetings. 
+	In that, we grab some user stories from product backlog into sprint backlog to be completed in the sprint.
+	Also we discussed about the user stories and then we set the story points by using poker card techniques. 
+	If I had any queries in that user stories means, I just make a walkthrough session with my BA. He will clarify my queries. 
+	(Also if we want to implement any new technology in our project means I will attend the workshop with SME's and gain the knowledge about those technologies. 
+	Then, I will get an application access.)
+
+	Also, I will be a part of helping my manager to prepare a test strategy and test schedule document. 
+	
+Once I clarify the doubt, I start to prepare my test cases.
+Once I complete the test cases, i want to get approvel from BA. 
+If BA reviewed and told me any changes i will rework the test cases until it get approved. In between this, 
+I attend the daily stand up call meeting for reporting what I  completed yesterday, what to be completed today and Whether I’m blocked with anything.(user stories or tasks)
+Once I get a build from dev team, first i do a smoke test to check whether the build will testable or not. If it is testable means, 
+i will execute the test cases along with test data to those build. If there is any deviation from the user stories means I will raise it as a bug through JIRA.
+After the bug fixed by the developer, I will retest the test cases to check whether the bugs is fixed or not. 
+At every weekend, I do a regression testing through JENKINS and generate a report. At the end of the every sprint, sprint review will be conducted. 
+In that we will show a demo of the completed user stories in front of our product owner, scrum master, my team and other business people. 
+After that sprint retrospective meeting will be conducted. In this meeting we talk about positive and negatives of the completed user stories.
+	
+Before deployment, we give some sign off based on the test case execution. 
+
+	1. There is no issue in the product means we give it as positive sign off.
+	2. Due to time constraint, only sanity test will be done means we give it as Conditional sign off.
+	3. The issue is high, but the client wants the product means we give it as Risk based sign off. 
+
+
+Cucumber workflow:
+===================
+	Execution starts from pom.xml, where I have used maven as my project management tool. 
+	In our project, we used cucumber with junit. 
+	In our testrunner class, we have used two annotations like @RunWith and @CucumberOptions. 
+sIn @RunWith annotation I will pass the Cucumber.class as the arguments. In @CucumberOptions, I gave used the options as 
+1.features ---> where I will give the path of my feature file
+2.glue ---> where I will pass the step definition package.
+3.dryRun ---> used to generating the missing snippets before the execution itself.
+4.plugin ---> pass the path of the folder where I want to generate and store the report.
+	In plugin, I will give either pretty or usage.
+If I give pretty means, in my console it will print the way like what are the scenarios have been executed and scenarios have been skipped.
+ If I am going to use usage instead of pretty means it will print in console in the way of key nd value format like json format.
