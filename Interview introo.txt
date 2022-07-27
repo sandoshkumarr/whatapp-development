@@ -52,3 +52,9 @@ sIn @RunWith annotation I will pass the Cucumber.class as the arguments. In @Cuc
 	In plugin, I will give either pretty or usage.
 If I give pretty means, in my console it will print the way like what are the scenarios have been executed and scenarios have been skipped.
  If I am going to use usage instead of pretty means it will print in console in the way of key nd value format like json format.
+
+TestNg workflow:
+================
+
+Execution start from pom.xml file , Where i have used maven as my project management tool.
+IN out testNg class there are nine annotation are available like @beforeSuit @beforeClass @beforeTest @beforeMethord @test @afterMethord....and soo on 
