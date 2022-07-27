@@ -1,6 +1,6 @@
 Introduction
 ============
-	This is sandosh kumar, from cuddalore  i have done my graduate in BE civil engineering @kongu engineering college in erode 
+	This is sandosh kumar, from cuddalore  i have done my graduate in BE . 
         currently I am working in Inter webstar technology for 3.3 years in both automation and manual on diffrent domains such as E-Commerce & travel.
 	In My travel domain which is kenya Based client. In that i got involved to write Test cases and executing test data manually.
 	My current project is E- commerce  domain which is austraila based client .In that we follow Agile methodology with 3weeks of sprint. 
@@ -9,7 +9,7 @@ Introduction
 	We use design patterns such as pom frame work and Data Driven framework.
 	we use JIRA as defect tracking tool. 
 	Apart from this I have experience on other framework such as TestnG which is used to excute parallel an cross Browser experience.
-    
+    	I got involved in version control system by using Github
 Roles and responsibilities:
 =============================
 	In our project, we used agile methodologies. In that, first we attend the sprint plan meetings. 
